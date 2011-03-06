@@ -10,7 +10,7 @@ Stable tag: 1.0
 
 Always get the latest English Premier League Table using this plugin.
 
-This plugin connects to www.englishpremierleague.com to get the latest English Premier League table. This service is offered for free.
+This plugin connects to www.englishpremierleaguetable.com to get the latest English Premier League table. This service is offered for free.
 
 **What's new**
 
