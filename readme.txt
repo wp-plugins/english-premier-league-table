@@ -3,7 +3,7 @@ Contributors: Gaetano Caruana
 Tags: English Premier League, English Premier, English League, English Premier League Table, English League Table, EPL Table
 Requires at least: 2.8
 Tested up to: 3.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 
 == Description ==
