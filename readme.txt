@@ -32,7 +32,7 @@ That's it!
 * Gaetano Caruana. You can contact me at gcaruana@gmail.com
 
 * I would like a new feature. Where can I send my ideas?
-* I would be more than happy to hear from you. Just drop me a line at caruana@gmail.com
+* I would be more than happy to hear from you. Just drop me a line at gcaruana@gmail.com
 
 == Screenshots ==
 
