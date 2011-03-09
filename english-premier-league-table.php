@@ -4,7 +4,7 @@
 Plugin Name: English Premier League Table
 Description: Get the latest English Premier League Table.
 Plugin URI: http://www.englishpremierleaguetable.com/demo/
-Version: 1.0
+Version: 1.1
 Author: Gaetano Caruana
 Author URI: http://www.englishpremierleaguetable.com
 */
@@ -28,6 +28,13 @@ class english_premier_league_table_class
 		  curl_setopt($ch,CURLOPT_CONNECTTIMEOUT,$timeout);
 		  $data = curl_exec($ch);
 		  curl_close($ch);
+		  
+		  //if curl did not return data or simple return 1 - use file_get_contents
+		  if (trim($data) == "" || $data == 1)
+		  {
+		  		$data = file_get_contents("http://www.englishpremierleaguetable.com/cache.php");
+		  }
+		  
 		  return $data;
 	}
 
